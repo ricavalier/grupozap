@@ -1,1 +1,52 @@
 // app global css in SCSS form
+
+@import 'quasar.variables.scss';
+@import 'home.scss';
+@import 'zapimoveis.scss';
+@import 'vivareal.scss';
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: $black;
+}
+img.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.text-shadow {
+  text-shadow: 2px 2px 5px $black;
+}
+// .q-header {
+//   .q-tabs {
+//     .q-tabs__content {
+//       a {
+//         &:last-child {
+//           .q-tab__indicator {
+//             opacity: 0;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+.q-footer {
+  font-size: .75em;
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 250px
+  }
+}
+.q-container {
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto
+}
+.q-card {
+  border-radius: 0;
+}
